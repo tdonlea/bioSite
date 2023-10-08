@@ -1,0 +1,94 @@
+html {
+    font-family: "EB Garamond", semibold;
+    background-color: #5F7880;
+    color: #D3D5D4;
+}
+
+h1 {
+    color: #D3D5D4;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #5F7880;
+}
+
+.navbar a {
+    float: center;
+    color: #D3D5D4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24pt;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    position: absolute;
+}
+
+.column {
+    width: 47%;
+    padding: 15px;
+    float: left;
+    position: relative;
+}
+
+.column13 {
+    width: 30%;
+    float: left;
+    padding: 15px;
+    position: relative;
+}
+
+.column23 {
+    width: 60%;
+    float: left;
+    padding: 15px;
+    position: relative;
+}
+
+.column34 {
+    width: 72%;
+    float: left;
+    padding: 15px;
+    position: relative;
+}
+
+.almostFill {
+    width: 95%;
+    float: left;
+    position: relative;
+}
+
+.fill {
+    width: 100%;
+    float: left;
+    position: absolute;
+}
+
+.fill_image_offset {
+    width: 60%;
+    left: 70%;
+    margin-top: 70%;
+    float: left;
+    position: absolute;
+    z-index: 100;
+}
+
+.fill_hobby_offset {
+    width: 100%;
+    left: 50%;
+    margin-top: 70%;
+    float: left;
+    position: absolute;
+    z-index: 100;
+}
+
+.image_text_1 {
+    z-index: 150;
+    top: 100px;
+    position: absolute;
+}

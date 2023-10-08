@@ -1,2 +1,5 @@
-# bioSite
-bioSite Assignment for Web Development with John Woods
+# CSD 340 Web Development with HTML and CSS
+
+## Contributors
+* John Woods
+* Taylor Donlea
