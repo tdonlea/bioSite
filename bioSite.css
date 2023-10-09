@@ -22,6 +22,10 @@ h1 {
     font-size: 24pt;
 }
 
+.navbar a:hover {
+    text-decoration: underline;
+}
+
 .row:after {
     content: "";
     display: table;
@@ -91,4 +95,28 @@ h1 {
     z-index: 150;
     top: 100px;
     position: absolute;
+}
+
+footer {
+    background-color: #5F7880;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 200;
+}
+footer p {
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    float: left;
+    color: #D3D5D4;
+}
+footer a:hover {
+    text-decoration: underline;
 }
